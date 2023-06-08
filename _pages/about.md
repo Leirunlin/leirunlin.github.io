@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Kuan Li Homepage"
+title: "Runlin Lei's Homepage"
 permalink: /
 author_profile: true
 redirect_from:
@@ -14,18 +14,20 @@ redirect_from:
 
 ## About Me
 
-I am a final-year Master candidate at Machine Learning and Data Mining group, Institute of Computing Technology, Chinese Academy of Sciences (ICT, CAS), supervised by Prof. [Xiang Ao](https://aoxaustin.github.io/index.html). I completed my B.E. degree in Electrical engineering and Automation at Beihang University.
+Welcome to My GitHub.io Homepage
+I'm Runlin Lei (雷润林), a first-year Phd. student at Renmin University of China, advised by Prof. Zhewei Wei. 
+I like sleeping. Sleeping is good.
+This is my GitHub homepage. Feel free to explore and learn more about me and my projects.
 
 ### Contact information
-Email: likuan20s@ict.ac.cn
-
-Wechat: Kuan_ppd
+Email: runlin_lei@ruc.edu.cn. 
 
 ## Research interests
 
-My interest lies in machine learning on graphs. Now I am working on Graph Adversarial Attack, dynamic graph modeling, and imbalanced node classification.
+My interest lies in machine learning on graphs. 
+Now I am working on Spectral Graph Neural Networks, Graph Leraning on Heterophilic Graphs, and Graph Adversarial Attack.
 
-*Aggregate the knowledge and distill it into intelligence.*
+*Why?*
 ## Publications
 
 <ul>{% for post in site.publications reversed %}
