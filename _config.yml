@@ -11,7 +11,7 @@ title                    : "Runlin Lei / 雷润林"
 title_separator          : "-"
 name                     : &name "Runlin Lei"
 description              : &description "personal description"
-url                      : https://leirunlin.github.io # the base hostname & protocol for your site e.g. "https://likuanppd.github.io/"
+url                      : https://leirunlin.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "leirunlin/leirunlin.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
