@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Runlin Lei / 雷润林"
-  avatar           :
+  avatar           : "profile.jpg"
   bio              : "Graph is all you need."
   location         : "Beijing, China"
   employer         :
