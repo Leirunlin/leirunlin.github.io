@@ -3,7 +3,7 @@ title: "Evennet: Ignoring odd-hop neighbors improves robustness of graph neural 
 collection: publications
 permalink: /publications/EvenNet
 excerpt: "Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks"
-date: 2022
+date: "2023-1-22"
 venue: "NIPS"
 year: 2022
 code: "https://github.com/Leirunlin/EvenNet"
