@@ -27,7 +27,7 @@ Email: runlin_lei@ruc.edu.cn.
 ## Research interests
 
 My interest lies in machine learning on graphs. 
-Now I am working on Spectral Graph Neural Networks, Graph Leraning on Heterophilic Graphs, and Graph Adversarial Attack & Defense.
+Now I am working on spectral graph neural networks, graph learning on heterophilic graphs, and graph adversarial attack & defense.
 
 ## Publications
 
