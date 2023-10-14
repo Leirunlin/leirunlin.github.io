@@ -14,8 +14,10 @@ redirect_from:
 
 ## About Me
 
-Welcome to My GitHub.io Homepage
-I'm Runlin Lei (雷润林), a first-year Phd. student at Renmin University of China, advised by Prof. Zhewei Wei. 
+Welcome to My Homepage.
+I'm Runlin Lei (雷润林), a second-year Ph.D. student at Renmin University of China, advised by Prof. [Zhewei Wei](http://www.weizhewei.com). 
+Before my Ph.D. journey, I obtained my Bachelor's degree from Shanghai University of Finance and Economics, advised by Prof. Hongsong Yuan.
+
 I like sleeping. Sleeping is good.
 This is my GitHub homepage. Feel free to explore and learn more about me and my projects.
 
@@ -25,9 +27,8 @@ Email: runlin_lei@ruc.edu.cn.
 ## Research interests
 
 My interest lies in machine learning on graphs. 
-Now I am working on Spectral Graph Neural Networks, Graph Leraning on Heterophilic Graphs, and Graph Adversarial Attack.
+Now I am working on Spectral Graph Neural Networks, Graph Leraning on Heterophilic Graphs, and Graph Adversarial Attack & Defense.
 
-*Why?*
 ## Publications
 
 <ul>{% for post in site.publications reversed %}
