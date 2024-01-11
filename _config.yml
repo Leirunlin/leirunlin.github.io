@@ -85,7 +85,7 @@ author:
   bio              : "Graph is all you need."
   location         : "Beijing, China"
   employer         :
-  googlescholar    : 
+  googlescholar    : https://scholar.google.com/citations?user=pckN2lAAAAAJ&hl=zh-CN&oi=ao
   email            : "runlin_lei@ruc.edu.cn"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
