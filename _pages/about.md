@@ -24,6 +24,8 @@ This is my GitHub homepage. Feel free to explore and learn more about me and my 
 ### Contact information
 Email: runlin_lei@ruc.edu.cn. 
 
+WeChat: wjccc77777
+
 ## Research interests
 
 My interest lies in machine learning on graphs. 
