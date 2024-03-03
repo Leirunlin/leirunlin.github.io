@@ -3,17 +3,74 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-# Site Settings
-locale                   : "en-CN"
-title                    : "Runlin Lei / 雷润林"
+# Basic Site Settings
+locale                   : "CN"
+title                    : "Runlin Lei's HomePage"
 title_separator          : "-"
 name                     : &name "Runlin Lei"
 description              : &description "personal description"
 url                      : https://leirunlin.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "leirunlin/leirunlin.github.io"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  name             : "Runlin Lei / 雷润林"
+  avatar           : "profile.jpg"
+  bio              : "Graph is all you need."
+  location         : "Beijing, China"
+  employer         : Renmin University of China
+  googlescholar    : https://scholar.google.com/citations?user=pckN2lAAAAAJ&hl=zh-CN&oi=ao
+  email            : "runlin_lei@ruc.edu.cn"
+
+  # Academic websites
+  arxiv            : # URL - Update with the correct link to your profile
+  impactstory      : # URL
+  orcid            : 
+  pubmed           : 
+  researchgate     : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username - Update with your username on the site
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "Leirunlin"
+  kaggle           : # Username  
+  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
+
+  # Social media
+  bluesky          : # Replace this with you Bluesky username
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : # Username
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : # Username
+  telegram         : # URL
+  tumblr           : # Username
+  twitter          : # Replace this with your X / Twitter handle
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # URL
+
+
+# Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -49,15 +106,17 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
+
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               :  #&twitter
 facebook:
   username               :
   app_id                 :
@@ -73,48 +132,10 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
-
-# Site Author
-author:
-  name             : "Runlin Lei / 雷润林"
-  avatar           : "profile.jpg"
-  bio              : "Graph is all you need."
-  location         : "Beijing, China"
-  employer         :
-  googlescholar    : https://scholar.google.com/citations?user=pckN2lAAAAAJ&hl=zh-CN&oi=ao
-  email            : "runlin_lei@ruc.edu.cn"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "Leirunlin"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : 
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  twitter          :
-  pubmed           :
 
 # Reading Files
 include:
@@ -208,6 +229,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _publications
   - scope:
       path: ""
@@ -217,6 +247,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
   # _talks
   - scope:
       path: ""
@@ -225,6 +264,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+
 
 # Sass/SCSS
 sass:
