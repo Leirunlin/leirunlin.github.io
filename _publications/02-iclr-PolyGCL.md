@@ -8,7 +8,7 @@ venue: "ICLR"
 year: 2024
 code: 
 paperurl: 
-authorlist: "Jingyu Chen, **Runlin Lei**, Zhewei Wei"
+authorlist: "Jingyu Chen, Runlin Lei, Zhewei Wei"
 status: 'pub'
 ---
 **Abstract:**

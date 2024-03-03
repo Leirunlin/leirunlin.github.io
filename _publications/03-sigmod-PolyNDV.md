@@ -8,7 +8,7 @@ venue: "SIGMOD"
 year: 2024
 code: 
 paperurl: 
-authorlist: "Jiajun Li, **Runlin Lei**, Sibo Wang, Bolin Ding, Zhewei Wei"
+authorlist: "Jiajun Li, Runlin Lei, Sibo Wang, Bolin Ding, Zhewei Wei"
 status: 'pub'
 ---
 **Abstract:**
