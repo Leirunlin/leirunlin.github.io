@@ -6,8 +6,8 @@ excerpt: "Learning-based Property Estimation with Polynomials"
 date: "2024-2-23"
 venue: "SIGMOD"
 year: 2024
-code: ""
-paperurl: ""
+code: 
+paperurl: 
 authorlist: "Jiajun Li, **Runlin Lei**, Sibo Wang, Bolin Ding, Zhewei Wei"
 status: 'pub'
 ---

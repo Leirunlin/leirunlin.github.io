@@ -38,6 +38,6 @@ Now I am working on spectral graph neural networks, graph learning on heterophil
 ## Talks
 
 <ul>{% for post in site.talks reversed %}
-{% include archive-single-cv.html %}
+{% include archive-single-talk.html %}
 {% endfor %}</ul>
 

@@ -6,7 +6,7 @@ excerpt: "PolyGCL: Graph Contrastive Learning via Learnable Spectral Polynomial 
 date: "2024-1-16"
 venue: "ICLR"
 year: 2024
-code: ""
+code: 
 paperurl: 
 authorlist: "Jingyu Chen, **Runlin Lei**, Zhewei Wei"
 status: 'pub'
