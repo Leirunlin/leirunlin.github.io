@@ -7,7 +7,7 @@ date: "2024-2-23"
 venue: "SIGMOD"
 year: 2024
 code: 
-paperurl: 
+paperurl: https://dl.acm.org/doi/10.1145/3654994
 authorlist: "Jiajun Li, Runlin Lei, Sibo Wang, Bolin Ding, Zhewei Wei"
 status: 'pub'
 ---
