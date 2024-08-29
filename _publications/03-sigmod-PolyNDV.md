@@ -34,4 +34,4 @@ approximation, which aims to learn the coefficients of the polynomial, providing
 Through comprehensive experiments on both synthetic and real-
 world datasets for estimating various data properties like NDV,
 entropy, and power sum, our results show the superiority of our
-algorithms over previous estimator
+algorithms over previous estimator.

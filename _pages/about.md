@@ -24,12 +24,12 @@ This is my GitHub homepage. Feel free to explore and learn more about me and my 
 ### Contact information
 Email: runlin_lei@ruc.edu.cn. 
 
-WeChat: wjccc77777
+WeChat: JustL1ttleBit
 
 ## Research interests
 
 My interest lies in machine learning on graphs. 
-Now I am working on spectral graph neural networks, graph learning on heterophilic graphs, and graph adversarial attack & defense.
+Now I am working on graph adversarial attack & defense and LLM4Graph.
 
 ## Publications
 
@@ -37,3 +37,9 @@ Now I am working on spectral graph neural networks, graph learning on heterophil
 {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
+## Services
+
+I serve(d) as a program committee member / reviewer for:
+* 2025: ICLR, AAAI
+* 2024: NeurIPS, ICML, ICLR, KDD, ACML
+* 2023: NeurIPS, ICML
