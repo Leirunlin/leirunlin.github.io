@@ -16,7 +16,7 @@ redirect_from:
 
 Welcome to My Homepage.
 I'm Runlin Lei (雷润林), a second-year Ph.D. student at Renmin University of China, advised by Prof. [Zhewei Wei](http://www.weizhewei.com). 
-Before my Ph.D. journey, I obtained my Bachelor's degree from Shanghai University of Finance and Economics, advised by Prof. Hongsong Yuan.
+Before my Ph.D. journey, I obtained my Bachelor's degree from Shanghai University of Finance and Economics, advised by Prof. Hongsong Yuan and Prof. Hua Liu.
 
 I like sleeping and 🐷. Both are good.
 This is my GitHub homepage. Feel free to explore and learn more about me and my projects.
