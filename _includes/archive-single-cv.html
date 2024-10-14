@@ -1,6 +1,17 @@
 <style>
+  /* 默认所有的链接都是黑色 */
   a {
     color: black;
+  }
+
+  /* 特定类的链接是更漂亮的蓝色 */
+  a.download-link {
+    color: #1E90FF; /* DodgerBlue, 你可以选择其他蓝色 */
+  }
+
+  /* 如果想让链接在鼠标悬停时有一个更深的蓝色 */
+  a.download-link:hover {
+    color: #007BFF; /* 这是一个更深的蓝色 */
   }
 </style>
 
@@ -34,7 +45,8 @@
     {% endif %}
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        <a href="{{ post.link }}">{{ title }}</a> 
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
@@ -66,11 +78,13 @@
       {% else %}
         <i>Work in progress.</i>
       {% endif %}
+      
+      <!-- 这里将download paper和code部分加上download-link类 -->
       {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" rel="permalink">[Download paper]</a>
+        <a href="{{ post.paperurl }}" rel="permalink" class="download-link">[Download paper]</a>
       {% endif %}
       {% if post.code %}
-        <a href="{{ post.code }}" rel="permalink">[code]</a>
+        <a href="{{ post.code }}" rel="permalink" class="download-link">[code]</a>
       {% endif %}
       {% if post.video %}
         <a href="{{ post.video }}" rel="permalink">[video]</a>
