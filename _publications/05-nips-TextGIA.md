@@ -6,7 +6,7 @@ excerpt: "Intruding with Words: Towards Understanding Graph Injection Attacks at
 date: "2024-12-10"
 venue: "NeurIPS"
 year: 2024
-code: "https://github.com/Leirunlin/"
+code: "https://github.com/Leirunlin/Text-level-Graph-Attack/"
 paperurl: "https://arxiv.org/abs/2405.16405"
 authorlist: "Runlin Lei, Yuwei Hu, Yuchen Ren, Zhewei Wei"
 status: 'pub'
