@@ -9,7 +9,7 @@ year: 2024
 code: ""
 paperurl: "https://arxiv.org/abs/2410.05130"
 authorlist: "Yuwei Hu, Runlin Lei, Xinyi Huang, Zhewei Wei, Yongchao Liu"
-status: 'pub'
+status: 'preprint'
 ---
 **Abstract:**
 
