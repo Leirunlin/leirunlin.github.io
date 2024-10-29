@@ -8,7 +8,7 @@
 # Site Settings
 title                    : "Runlin Lei"
 description              : "PhD Student, RUC"
-repository               : "runlin_lei/acad-homepage.github.io"
+repository               : "leirunlin/leirunlin.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -23,11 +23,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Runlin Lei <br> 雷润林"
   avatar           : "images/profile.jpg"
-  bio              : ""
+  bio              : "Graph is all you need."
   location         : "Beijing, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=icT6GMsAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=pckN2lAAAAAJ&hl=en&oi=ao"
   email            : "runlin_lei@ruc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -126,6 +126,15 @@ defaults:
     values:
       layout: default
       author_profile: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: default
+      author_profile: true
+      share: true
+      comments: true
 
 
 # Sass/SCSS
