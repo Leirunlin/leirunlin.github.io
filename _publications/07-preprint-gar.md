@@ -6,7 +6,7 @@ excerpt: "Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents"
 date: "2024-10-07"
 venue: "NeurIPS"
 year: 2024
-code: "https://anonymous.4open.science/r/GraphAgent-2206"
+code: 
 paperurl: "https://arxiv.org/pdf/2410.09824"
 authorlist: "Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding"
 status: 'preprint'
