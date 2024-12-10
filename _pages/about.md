@@ -57,8 +57,16 @@ redirect_from:
 # <span class="section-title" style="color: #34495E;">Talks</span>
 
 <ul class="talks-list" style="color: #2C3E50;">
-  <li><span class="date" style="color: #2980B9;">2023-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
-  <li><span class="date" style="color: #2980B9;">2022-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
+  <li>
+    <span class="date" style="color: #2980B9;">2023-10:</span> 
+    Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. 
+    <a href="https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/" class="link" style="color: #2980B9;">Talk</a>
+  </li>
+  <li>
+    <span class="date" style="color: #2980B9;">2022-10:</span> 
+    Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. 
+    <a href="https://www.bilibili.com/video/BV1xt4y1T74f/" class="link" style="color: #2980B9;">Talk</a>
+  </li>
 </ul>
 
 # <span class="section-title" style="color: #34495E;">Honors & Scholarships</span>
