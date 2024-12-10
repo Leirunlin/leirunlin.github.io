@@ -19,7 +19,7 @@ redirect_from:
 
 # <span class="section-title" style="color: #34495E;">About Me</span>
 
-<div class="section-content about-me" style="background-color: #ECF0F1; border-left-color: #34495E;">
+<div class="section-content about-me" style="border-left-color: #34495E;">
   <p>
     👋 <strong style="color: #16A085;">I'm Runlin Lei (雷润林)</strong>, a third-year Ph.D. student at <strong style="color: #16A085;">Renmin University of China</strong>. I'm a member of the ALGO Lab, advised by <a href="http://www.weizhewei.com" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.  
     My research interests primarily focus on <strong style="color: #16A085;">graph machine learning</strong>, <strong style="color: #16A085;">trustworthy graph neural networks</strong>, and <strong style="color: #16A085;">graph foundation models</strong>.
@@ -37,7 +37,7 @@ redirect_from:
 
 # <span class="section-title" style="color: #34495E;">Visitor Opportunities</span>
 
-<div class="section-content visitor-opportunities" style="background-color: #F9E79F; border-left-color: #F39C12;">
+<div class="section-content visitor-opportunities" style="border-left-color: #F39C12;">
   <p class="highlight" style="color: #E74C3C;">
     🚀 I am actively seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.
   </p>
@@ -63,7 +63,7 @@ redirect_from:
 
 # <span class="section-title" style="color: #34495E;">Honors & Scholarships</span>
 
-<div class="section-content honors-scholarships" style="background-color: #ECF0F1; border-left-color: #34495E;">
+<div class="section-content honors-scholarships" style="border-left-color: #34495E;">
   <ul class="honors-list" style="color: #2C3E50;">
     <li><strong style="color: #16A085;">2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
     <li><strong style="color: #16A085;">2022:</strong> <span class="highlight" style="color: #16A085;">Shanghai Excellent Graduate</span>, School Excellent Graduate</li>
@@ -75,7 +75,7 @@ redirect_from:
 
 # <span class="section-title" style="color: #34495E;">Services</span>
 
-<div class="section-content services" style="background-color: #ECF0F1; border-left-color: #34495E;">
+<div class="section-content services" style="border-left-color: #34495E;">
   <p style="color: #2C3E50;">I serve(d) as a program committee member / reviewer for:</p>
   <ul class="services-list" style="color: #2C3E50;">
     <li><strong style="color: #16A085;">2025:</strong> ICLR, AAAI, TPAMI</li>
