@@ -17,62 +17,69 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# <span style="color:#2E86C1;">About Me</span>
+# <span class="section-title">About Me</span>
 
-<div style="border-left: 4px solid #2E86C1; padding-left: 10px; margin-bottom: 20px;">
-
-  I'm **Runlin Lei (雷润林)**, a third-year Ph.D. student at **Renmin University of China**, advised by [Prof. Zhewei Wei](http://www.weizhewei.com).  
-  My research interests primarily focus on **graph machine learning**, **trustworthy graph neural networks**, and **graph foundation models**.
-
-  Before my Ph.D. journey, I obtained my Bachelor's degree from **Shanghai University of Finance and Economics**, advised by **Prof. Hongsong Yuan** and **Prof. Hua Liu**.
-
-  Feel free to reach out to me via email: <a href="mailto:runlin_lei@ruc.edu.cn" style="color: #2980B9;">runlin_lei@ruc.edu.cn</a>.
+<div class="section-content about-me">
+  <p>
+    I'm <strong>Runlin Lei (雷润林)</strong>, a third-year Ph.D. student at <strong>Renmin University of China</strong>, advised by <a href="http://www.weizhewei.com" class="link">Prof. Zhewei Wei</a>.  
+    My research interests primarily focus on <strong>graph machine learning</strong>, <strong>trustworthy graph neural networks</strong>, and <strong>graph foundation models</strong>.
+  </p>
+  
+  <p>
+    Before my Ph.D. journey, I obtained my Bachelor's degree from <strong>Shanghai University of Finance and Economics</strong>, advised by <strong>Prof. Hongsong Yuan</strong> and <strong>Prof. Hua Liu</strong>.
+  </p>
+  
+  <p>
+    Feel free to reach out to me via email: 
+    <a href="mailto:runlin_lei@ruc.edu.cn" class="link">runlin_lei@ruc.edu.cn</a>.
+  </p>
 </div>
 
-# <span style="color:#2E86C1;">Visitor Opportunities</span>
+# <span class="section-title">Visitor Opportunities</span>
 
-<div style="border-left: 4px solid #F39C12; padding-left: 10px; margin-bottom: 20px;">
-  <p style="font-weight: bold; color: #F39C12;">🚀 I am actively seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.</p>
-  <p>If you are interested in hosting a visiting researcher or exploring potential collaborations, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" style="color: #2980B9; font-weight: bold;">contact me</a>.</p>
+<div class="section-content visitor-opportunities">
+  <p class="highlight">
+    🚀 I am actively seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.
+  </p>
+  <p>
+    If you are interested in hosting a visiting researcher or exploring potential collaborations, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" class="link bold">contact me</a>.
+  </p>
 </div>
 
-# <span style="color:#2E86C1;">Publications</span>
+# <span class="section-title">Publications</span>
 
-<ul style="list-style-type: none; padding: 0;">
+<ul class="publications-list">
   {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}
 </ul>
 
-# <span style="color:#2E86C1;">Talks</span>
+# <span class="section-title">Talks</span>
 
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li><span style="color:#2980B9;">2023-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
-  <li><span style="color:#2980B9;">2022-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
+<ul class="talks-list">
+  <li><span class="date">2023-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
+  <li><span class="date">2022-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
 </ul>
 
-# <span style="color:#2E86C1;">Honors & Scholarships</span>
+# <span class="section-title">Honors & Scholarships</span>
 
-<div style="border-left: 4px solid #2E86C1; padding-left: 10px; margin-bottom: 20px;">
-  <ul style="list-style-type: none; padding-left: 20px;">
+<div class="section-content honors-scholarships">
+  <ul class="honors-list">
     <li><strong>2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
-    <li><strong>2022:</strong> <strong style="color: #2E86C1;">Shanghai Excellent Graduate</strong>, School Excellent Graduate</li>
+    <li><strong>2022:</strong> <span class="highlight">Shanghai Excellent Graduate</span>, School Excellent Graduate</li>
     <li><strong>2021:</strong> China Merchants Bank Scholarship, American Undergraduate Mathematical Modeling Competition M Award, National Mathematical Modeling Competition National Second Prize</li>
     <li><strong>2020:</strong> People's Scholarship First Prize</li>
-    <li><strong>2019:</strong> <strong style="color: #2E86C1;">National Scholarship</strong></li>
+    <li><strong>2019:</strong> <span class="highlight">National Scholarship</span></li>
   </ul>
 </div>
 
+# <span class="section-title">Services</span>
 
-
-# <span style="color:#2E86C1;">Services</span>
-
-<div style="border-left: 4px solid #2E86C1; padding-left: 10px; margin-bottom: 20px;">
-  I serve(d) as a program committee member / reviewer for:
-  <ul style="list-style-type: square; padding-left: 20px;">
+<div class="section-content services">
+  <p>I serve(d) as a program committee member / reviewer for:</p>
+  <ul class="services-list">
     <li><strong>2025:</strong> ICLR, AAAI, TPAMI</li>
     <li><strong>2024:</strong> NeurIPS, ICML, ICLR, KDD, ACML</li>
     <li><strong>2023:</strong> NeurIPS, ICML</li>
   </ul>
 </div>
-
