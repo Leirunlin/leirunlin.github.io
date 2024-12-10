@@ -17,36 +17,36 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# <span class="section-title">About Me</span>
+# <span class="section-title" style="color: #34495E;">About Me</span>
 
-<div class="section-content about-me">
+<div class="section-content about-me" style="background-color: #ECF0F1; border-left-color: #34495E;">
   <p>
-    I'm <strong>Runlin Lei (雷润林)</strong>, a third-year Ph.D. student at <strong>Renmin University of China</strong>, advised by <a href="http://www.weizhewei.com" class="link">Prof. Zhewei Wei</a>.  
-    My research interests primarily focus on <strong>graph machine learning</strong>, <strong>trustworthy graph neural networks</strong>, and <strong>graph foundation models</strong>.
+    👋 <strong style="color: #16A085;">I'm Runlin Lei (雷润林)</strong>, a third-year Ph.D. student at <strong style="color: #16A085;">Renmin University of China</strong>. I'm a member of the ALGO Lab, advised by <a href="http://www.weizhewei.com" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.  
+    My research interests primarily focus on <strong style="color: #16A085;">graph machine learning</strong>, <strong style="color: #16A085;">trustworthy graph neural networks</strong>, and <strong style="color: #16A085;">graph foundation models</strong>.
   </p>
   
   <p>
-    Before my Ph.D. journey, I obtained my Bachelor's degree from <strong>Shanghai University of Finance and Economics</strong>, advised by <strong>Prof. Hongsong Yuan</strong> and <strong>Prof. Hua Liu</strong>.
+    🎓 Before embarking on my Ph.D. journey, I earned my Bachelor's degree from <strong style="color: #16A085;">Shanghai University of Finance and Economics</strong>, where I was advised by <strong style="color: #16A085;">Prof. Hongsong Yuan</strong> and <strong style="color: #16A085;">Prof. Hua Liu</strong>.
   </p>
   
   <p>
-    Feel free to reach out to me via email: 
-    <a href="mailto:runlin_lei@ruc.edu.cn" class="link">runlin_lei@ruc.edu.cn</a>.
+    📧 Feel free to reach out to me via email: 
+    <a href="mailto:runlin_lei@ruc.edu.cn" class="link" style="color: #2980B9;">runlin_lei@ruc.edu.cn</a>.
   </p>
 </div>
 
-# <span class="section-title">Visitor Opportunities</span>
+# <span class="section-title" style="color: #34495E;">Visitor Opportunities</span>
 
-<div class="section-content visitor-opportunities">
-  <p class="highlight">
+<div class="section-content visitor-opportunities" style="background-color: #F9E79F; border-left-color: #F39C12;">
+  <p class="highlight" style="color: #E74C3C;">
     🚀 I am actively seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.
   </p>
   <p>
-    If you are interested in hosting a visiting researcher or exploring potential collaborations, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" class="link bold">contact me</a>.
+    🤝 If you are interested in hosting a visiting researcher or exploring potential collaborations, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" class="link bold" style="color: #2980B9;">contact me</a>.
   </p>
 </div>
 
-# <span class="section-title">Publications</span>
+# <span class="section-title" style="color: #34495E;">Publications</span>
 
 <ul class="publications-list">
   {% for post in site.publications reversed %}
@@ -54,32 +54,32 @@ redirect_from:
   {% endfor %}
 </ul>
 
-# <span class="section-title">Talks</span>
+# <span class="section-title" style="color: #34495E;">Talks</span>
 
-<ul class="talks-list">
-  <li><span class="date">2023-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
-  <li><span class="date">2022-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
+<ul class="talks-list" style="color: #2C3E50;">
+  <li><span class="date" style="color: #2980B9;">2023-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
+  <li><span class="date" style="color: #2980B9;">2022-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
 </ul>
 
-# <span class="section-title">Honors & Scholarships</span>
+# <span class="section-title" style="color: #34495E;">Honors & Scholarships</span>
 
-<div class="section-content honors-scholarships">
-  <ul class="honors-list">
-    <li><strong>2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
-    <li><strong>2022:</strong> <span class="highlight">Shanghai Excellent Graduate</span>, School Excellent Graduate</li>
-    <li><strong>2021:</strong> China Merchants Bank Scholarship, American Undergraduate Mathematical Modeling Competition M Award, National Mathematical Modeling Competition National Second Prize</li>
-    <li><strong>2020:</strong> People's Scholarship First Prize</li>
-    <li><strong>2019:</strong> <span class="highlight">National Scholarship</span></li>
+<div class="section-content honors-scholarships" style="background-color: #ECF0F1; border-left-color: #34495E;">
+  <ul class="honors-list" style="color: #2C3E50;">
+    <li><strong style="color: #16A085;">2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
+    <li><strong style="color: #16A085;">2022:</strong> <span class="highlight" style="color: #16A085;">Shanghai Excellent Graduate</span>, School Excellent Graduate</li>
+    <li><strong style="color: #16A085;">2021:</strong> China Merchants Bank Scholarship, American Undergraduate Mathematical Modeling Competition M Award, National Mathematical Modeling Competition National Second Prize</li>
+    <li><strong style="color: #16A085;">2020:</strong> People's Scholarship First Prize</li>
+    <li><strong style="color: #16A085;">2019:</strong> <span class="highlight" style="color: #16A085;">National Scholarship</span></li>
   </ul>
 </div>
 
-# <span class="section-title">Services</span>
+# <span class="section-title" style="color: #34495E;">Services</span>
 
-<div class="section-content services">
-  <p>I serve(d) as a program committee member / reviewer for:</p>
-  <ul class="services-list">
-    <li><strong>2025:</strong> ICLR, AAAI, TPAMI</li>
-    <li><strong>2024:</strong> NeurIPS, ICML, ICLR, KDD, ACML</li>
-    <li><strong>2023:</strong> NeurIPS, ICML</li>
+<div class="section-content services" style="background-color: #ECF0F1; border-left-color: #34495E;">
+  <p style="color: #2C3E50;">I serve(d) as a program committee member / reviewer for:</p>
+  <ul class="services-list" style="color: #2C3E50;">
+    <li><strong style="color: #16A085;">2025:</strong> ICLR, AAAI, TPAMI</li>
+    <li><strong style="color: #16A085;">2024:</strong> NeurIPS, ICML, ICLR, KDD, ACML</li>
+    <li><strong style="color: #16A085;">2023:</strong> NeurIPS, ICML</li>
   </ul>
 </div>
