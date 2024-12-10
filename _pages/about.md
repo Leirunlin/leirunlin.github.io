@@ -21,12 +21,12 @@ redirect_from:
 
 <div class="section-content about-me" style="border-left-color: #34495E;">
   <p>
-    👋 <strong style="color: #16A085;">I'm Runlin Lei (雷润林)</strong>, a third-year Ph.D. student at <strong style="color: #16A085;">Renmin University of China</strong>. I'm a member of the ALGO Lab, advised by <a href="http://www.weizhewei.com" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.  
-    My research interests primarily focus on <strong style="color: #16A085;">graph machine learning</strong>, <strong style="color: #16A085;">trustworthy graph neural networks</strong>, and <strong style="color: #16A085;">graph foundation models (graph large languge models)</strong>.
+    👋 I'm Runlin Lei (雷润林)</strong>, a third-year Ph.D. student at Renmin University of China</strong>. I'm a member of the ALGO Lab, advised by <a href="http://www.weizhewei.com" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.  
+    My research interests primarily focus on graph machine learning, trustworthy graph neural networks and graph foundation models (graph large languge models).
   </p>
   
   <p>
-    🎓 Before embarking on my Ph.D. journey, I earned my Bachelor's degree from <strong style="color: #16A085;">Shanghai University of Finance and Economics</strong>, where I was advised by <strong style="color: #16A085;">Prof. Hongsong Yuan</strong> and <strong style="color: #16A085;">Prof. Hua Liu</strong>.
+    🎓 Before embarking on my Ph.D. journey, I earned my Bachelor's degree from Shanghai University of Finance and Economics, where I was advised by Prof. Hongsong Yuan and Prof. Hua Liu.
   </p>
   
   <p>
@@ -60,12 +60,12 @@ redirect_from:
   <li>
     <span class="date" style="color: #2980B9;">2023-10:</span> 
     Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. 
-    <a href="https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/" class="link" style="color: #2980B9;">Talk</a>
+    <a href="https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/" class="link" style="color: #2980B9;">Talk Link</a>
   </li>
   <li>
     <span class="date" style="color: #2980B9;">2022-10:</span> 
     Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. 
-    <a href="https://www.bilibili.com/video/BV1xt4y1T74f/" class="link" style="color: #2980B9;">Talk</a>
+    <a href="https://www.bilibili.com/video/BV1xt4y1T74f/" class="link" style="color: #2980B9;">Talk Link</a>
   </li>
 </ul>
 
