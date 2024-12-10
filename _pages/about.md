@@ -21,12 +21,10 @@ redirect_from:
 
 <div style="border-left: 4px solid #2E86C1; padding-left: 10px; margin-bottom: 20px;">
 
-  I'm **Runlin Lei(雷润林)**, a third-year Ph.D. candidate at **Renmin University of China**.  
-  I am a member of the **Algo Group** at Renmin University of China, advised by [Prof. Zhewei Wei](https://algruc.github.io/weizhewei.com/).
+  I'm **Runlin Lei (雷润林)**, a third-year Ph.D. student at **Renmin University of China**, advised by [Prof. Zhewei Wei](http://www.weizhewei.com).  
+  My research interests primarily focus on **graph machine learning**, **trustworthy graph neural networks**, and **graph foundation models**.
 
-  My research interests focus on **graph machine learning**, **trustworthy graph neural networks**, and **graph foundation models**.
-
-  Before pursuing my Ph.D., I obtained my Bachelor's degree from **Shanghai University of Finance and Economics**, where I was advised by **Prof. Hongsong Yuan** and **Prof. Hua Liu**.
+  Before my Ph.D. journey, I obtained my Bachelor's degree from **Shanghai University of Finance and Economics**, advised by **Prof. Hongsong Yuan** and **Prof. Hua Liu**.
 
   Feel free to reach out to me via email: <a href="mailto:runlin_lei@ruc.edu.cn" style="color: #2980B9;">runlin_lei@ruc.edu.cn</a>.
 </div>
@@ -49,9 +47,23 @@ redirect_from:
 # <span style="color:#2E86C1;">Talks</span>
 
 <ul style="list-style-type: disc; padding-left: 20px;">
-  <li><span style="color:#2980B9;">2023-10:</span> Gave a talk about *Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks* to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
-  <li><span style="color:#2980B9;">2022-10:</span> Gave a talk about *Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks* to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
+  <li><span style="color:#2980B9;">2023-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to the Complex Networks Analysis discussion group. [Talk](https://www.iit.demokritos.gr/complex-networks-analysis-think-tank/)</li>
+  <li><span style="color:#2980B9;">2022-10:</span> Gave a talk about <em>Evennet: Ignoring odd-hop neighbors improves robustness of graph neural networks</em> to AITIMES. [Talk](https://www.bilibili.com/video/BV1xt4y1T74f/)</li>
 </ul>
+
+# <span style="color:#2E86C1;">Honors & Scholarships</span>
+
+<div style="border-left: 4px solid #2E86C1; padding-left: 10px; margin-bottom: 20px;">
+  <ul style="list-style-type: none; padding-left: 20px;">
+    <li><strong>2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
+    <li><strong>2022:</strong> <strong style="color: #2E86C1;">Shanghai Excellent Graduate</strong>, School Excellent Graduate</li>
+    <li><strong>2021:</strong> China Merchants Bank Scholarship, American Undergraduate Mathematical Modeling Competition M Award, National Mathematical Modeling Competition National Second Prize</li>
+    <li><strong>2020:</strong> People's Scholarship First Prize</li>
+    <li><strong>2019:</strong> <strong style="color: #2E86C1;">National Scholarship</strong></li>
+  </ul>
+</div>
+
+
 
 # <span style="color:#2E86C1;">Services</span>
 
@@ -61,17 +73,6 @@ redirect_from:
     <li><strong>2025:</strong> ICLR, AAAI, TPAMI</li>
     <li><strong>2024:</strong> NeurIPS, ICML, ICLR, KDD, ACML</li>
     <li><strong>2023:</strong> NeurIPS, ICML</li>
-  </ul>
-</div>
-
-# <span style="color:#2E86C1;">Honors & Scholarships</span>
-
-<div style="border-left: 4px solid #2E86C1; padding-left: 10px; margin-bottom: 20px;">
-  <ul style="list-style-type: none; padding-left: 20px;">
-    <li><strong>2022:</strong> Shanghai Excellent Graduate, School Excellent Graduate</li>
-    <li><strong>2021:</strong> China Merchants Bank Scholarship, American Undergraduate Mathematical Modeling Competition M Award, National Mathematical Modeling Competition National Second Prize</li>
-    <li><strong>2020:</strong> People's Scholarship First Prize</li>
-    <li><strong>2019:</strong> National Scholarship</li>
   </ul>
 </div>
 
