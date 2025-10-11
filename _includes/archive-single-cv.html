@@ -1,4 +1,20 @@
 <style>
+  /* Only affect publications pages - target archive layout */
+  .layout--archive ul li.list__item {
+    list-style: none;
+    margin-bottom: 2em;
+    padding: 1em 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .layout--archive ul li.list__item:last-child {
+    border-bottom: none;
+  }
+  
+  .layout--archive ul {
+    padding-left: 0;
+  }
+
   /* 默认所有的链接都是黑色 */
   a {
     color: black;

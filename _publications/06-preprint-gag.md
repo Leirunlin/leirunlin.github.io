@@ -1,15 +1,17 @@
 ---
-title: "Dynamic and Textual Graph Generation Via Large-Scale LLM-based Agent Simulation"
+title: "LLM-Based Multi-Agent Systems are Scalable Graph Generative Models"
 collection: publications
 permalink: /publications/GAG
-excerpt: "Dynamic and Textual Graph Generation Via Large-Scale LLM-based Agent Simulation"
+excerpt: "LLM-Based Multi-Agent Systems are Scalable Graph Generative Models"
 date: "2024-10-28"
-venue: "Preprint"
+venue: "ACL (Findings)"
 year: 2024
-code: ""
+code: "https://github.com/Ji-Cather/GraphAgent"
 paperurl: "https://arxiv.org/abs/2410.09824"
 authorlist: "Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding"
-status: 'preprint'
+status: 'pub'
 ---
 **Abstract:**
-Graph generation is a fundamental task that has been extensively studied in social, technological, and scientific analysis. For modeling the dynamic graph evolution process, traditional rule-based methods struggle to capture community structures within graphs, while deep learning methods only focus on fitting training graphs. This limits existing graph generators to producing graphs that adhere to predefined rules or closely resemble training datasets, achieving poor performance in dynamic graph generation. Given that graphs are abstract representations arising from pairwise interactions in human activities, a realistic simulation of human-wise interaction could provide deeper insights into the graph evolution mechanism. With the increasing recognition of large language models (LLMs) in simulating human behavior, we introduce GraphAgent-Generator (GAG), a novel simulation-based framework for dynamic graph generation. Without training or fine-tuning process of LLM, our framework effectively replicates seven macro-level structural characteristics in established network science theories while surpassing existing baselines in graph expansion tasks by 31\% on specific evaluation metrics. Through node classification task, we validate GAG effectively preserves characteristics of real-world network for node-wise textual features in generated text-rich graph. Furthermore, by incorporating parallel acceleration, GAG supports generating graphs with up to nearly 100,000 nodes or 10 million edges through large-scale LLM-based agent simulation, with a minimum speed-up of 90.4\%. The source code is available at this https URL.
+The structural properties of naturally arising social graphs are extensively studied to understand their evolution. Prior approaches for modeling network dynamics typically rely on rule-based models, which lack realism and generalizability, or deep learning-based models, which require large-scale training datasets. Social graphs, as abstract graph representations
+of entity-wise interactions, present an opportunity to explore network evolution mechanisms through realistic simulations of human-item interactions. Leveraging the pre-trained social consensus knowledge embedded in large language models (LLMs), we present GraphAgentGenerator (GAG), a novel simulation-based framework for dynamic, text-attributed social
+graph generation. GAG simulates the temporal node and edge generation processes for zeroshot social graph generation. The resulting graphs exhibit adherence to seven key macroscopic network properties, achieving an 11% improvement in microscopic graph structure metrics. Through the node classification benchmarking task, we validate GAG effectively captures the intricate text-structure correlations in graph generation. Furthermore, GAG supports generating graphs with up to nearly 100,000 nodes or 10 million edges through large-scale LLM-based agent simulation with parallel acceleration, achieving a minimum speed-up of 90.4%. The source code is available at https://github.com/Ji-Cather/GraphAgent.
