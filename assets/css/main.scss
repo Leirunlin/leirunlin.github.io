@@ -107,3 +107,135 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+// Publications list styling
+.publications-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+        margin-bottom: 2em;
+        padding: 1.5em 0;
+        border-bottom: 1px solid #efefef;
+        list-style: none;
+        
+        &:last-child {
+            border-bottom: none;
+        }
+        
+        .archive__item-title {
+            margin-bottom: 0.5em;
+            font-size: 1.1em;
+            line-height: 1.3;
+            
+            a {
+                color: #333;
+                text-decoration: none;
+                
+                &:hover {
+                    color: #2980B9;
+                }
+            }
+        }
+        
+        .download-link {
+            color: #1E90FF;
+            text-decoration: none;
+            margin-right: 0.5em;
+            
+            &:hover {
+                color: #007BFF;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// Talks list styling
+.talks-list {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        margin-bottom: 1em;
+        padding: 1em 0;
+        border-bottom: 1px solid #f0f0f0;
+        
+        &:last-child {
+            border-bottom: none;
+        }
+        
+        .date {
+            font-weight: bold;
+            margin-right: 0.5em;
+        }
+    }
+}
+
+// Honors list styling
+.honors-list {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        margin-bottom: 0.8em;
+        padding-left: 1em;
+        border-left: 3px solid #34495E;
+        
+        strong {
+            margin-right: 0.5em;
+        }
+        
+        .highlight {
+            font-weight: bold;
+        }
+    }
+}
+
+// Services list styling
+.services-list {
+    list-style: none;
+    padding: 0;
+    
+    li {
+        margin-bottom: 0.5em;
+        
+        strong {
+            margin-right: 0.5em;
+        }
+    }
+}
+
+// Section styling
+.section-content {
+    margin-bottom: 2em;
+    padding: 1em;
+    border-left: 4px solid;
+    background-color: #f9f9f9;
+    
+    &.about-me {
+        background-color: #f8f9fa;
+    }
+    
+    &.visitor-opportunities {
+        background-color: #fff8e1;
+        
+        .highlight {
+            font-weight: bold;
+        }
+    }
+    
+    &.honors-scholarships {
+        background-color: #f8f9fa;
+    }
+    
+    &.services {
+        background-color: #f8f9fa;
+    }
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
