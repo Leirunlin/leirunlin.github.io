@@ -10,6 +10,6 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-<ul>{% for post in site.publications reversed %}
+<ul class="publications-list">{% for post in site.publications reversed %}
   {% include archive-single-publications.html %}
 {% endfor %}</ul>
