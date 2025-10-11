@@ -1,5 +1,6 @@
+{% unless page.url contains '/publications/' %}
 <style>
-  /* 默认所有的链接都是黑色 */
+  /* 默认所有的链接都是黑色 - only for homepage */
   a {
     color: black;
   }
@@ -14,6 +15,7 @@
     color: #007BFF; /* 这是一个更深的蓝色 */
   }
 </style>
+{% endunless %}
 
 {% include base_path %}
 
