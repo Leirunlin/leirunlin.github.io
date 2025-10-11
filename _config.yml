@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Runlin Lei <br> 雷润林"
-  avatar           : "images/profile.jpg"
+  avatar           : "/images/profile.jpg"
   bio              : "Graph is all you need."
   location         : "Beijing, China"
   employer         :
