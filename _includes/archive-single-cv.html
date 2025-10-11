@@ -1,20 +1,4 @@
 <style>
-  /* Only affect publications pages - target archive layout */
-  .layout--archive ul li.list__item {
-    list-style: none;
-    margin-bottom: 2em;
-    padding: 1em 0;
-    border-bottom: 1px solid #eee;
-  }
-  
-  .layout--archive ul li.list__item:last-child {
-    border-bottom: none;
-  }
-  
-  .layout--archive ul {
-    padding-left: 0;
-  }
-
   /* 默认所有的链接都是黑色 */
   a {
     color: black;
@@ -45,8 +29,9 @@
   {% assign title = post.title %}
 {% endif %}
 
-<li class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <li>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -104,5 +89,6 @@
       {% if post.video %}
         <a href="{{ post.video }}" rel="permalink">[video]</a>
       {% endif %}
+    </li>
  </article>
-</li>
+</div>
