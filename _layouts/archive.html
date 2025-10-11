@@ -1,31 +1,10 @@
 ---
-layout: compress
+layout: default
 ---
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <div class="archive">
-        {% unless page.header.overlay_color or page.header.overlay_image %}
-          <h1 class="page__title">{{ page.title }}</h1>
-        {% endunless %}
-        {{ content }}
-      </div>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
-</html>
+<div class="archive">
+  {% unless page.header.overlay_color or page.header.overlay_image %}
+    <h1 class="page__title">{{ page.title }}</h1>
+  {% endunless %}
+  {{ content }}
+</div>
