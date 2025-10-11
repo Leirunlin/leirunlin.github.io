@@ -39,7 +39,7 @@ redirect_from:
 
 <div class="section-content visitor-opportunities" style="border-left-color: #F39C12;">
   <p class="highlight" style="color: #E74C3C;">
-    🚀 I am actively seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning, large language models, and multi-agent. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.
+    🚀 I am seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning, large language models, and multi-agent. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.
   </p>
   <p>
     🤝 If you are interested in hosting a visiting researcher or exploring potential collaborations, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" class="link bold" style="color: #2980B9;">contact me</a>.
