@@ -21,7 +21,7 @@ redirect_from:
 
 <div class="section-content about-me" style="border-left-color: #34495E;">
   <p>
-    👋 I'm Runlin Lei (雷润林), a fourth-year Ph.D. student at Renmin University of China. I'm a member of the ALGO Lab, advised by <a href="http://www.weizhewei.com" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.  
+    👋 I'm Runlin Lei (雷润林), a fourth-year Ph.D. student at Renmin University of China. I'm a member of the ALGO Lab, advised by <a href="https://weizhewei.com/" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.  
     My research interests primarily focus on graph machine learning, trustworthy graph neural networks and graph foundation models (graph large languge models).
   </p>
   
@@ -32,17 +32,6 @@ redirect_from:
   <p>
     📧 Feel free to reach out to me via email: 
     <a href="mailto:runlin_lei@ruc.edu.cn" class="link" style="color: #2980B9;">runlin_lei@ruc.edu.cn</a>.
-  </p>
-</div>
-
-# <span class="section-title" style="color: #34495E;">Visitor Opportunities</span>
-
-<div class="section-content visitor-opportunities" style="border-left-color: #F39C12;">
-  <p class="highlight" style="color: #E74C3C;">
-    🚀 I am seeking visitor opportunities to collaborate with leading researchers and institutions in the field of graph machine learning, large language models, and multi-agent. I am eager to engage in joint projects, exchange ideas, and contribute to innovative research initiatives.
-  </p>
-  <p>
-    🤝 If you are interested in hosting a visiting researcher or exploring potential collaborations, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" class="link bold" style="color: #2980B9;">contact me</a>.
   </p>
 </div>
 
