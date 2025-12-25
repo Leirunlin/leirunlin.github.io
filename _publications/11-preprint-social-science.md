@@ -5,7 +5,7 @@ permalink: /publications/social-science
 excerpt: "Leveraging LLM-Based Agents for Social Science Research: Insights from Citation Network Simulations"
 date: "2024-11-19"
 venue: "HSSCOMMS"
-year: 2024
+year: 2025
 code:
 paperurl: "https://arxiv.org/pdf/2511.03758"
 authorlist: "Jiarui Ji, Runlin Lei, Xuchen Pan, Zhewei Wei, Hao Sun, Yankai Lin, Xu Chen, Yongzheng Yang, Yaliang Li, Bolin Ding, Ji-Rong Wen"
