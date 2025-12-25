@@ -8,7 +8,7 @@ venue: "TKDE"
 year: 2025
 code:
 paperurl:
-authorlist: "Runlin Lei, et al."
+authorlist: "Runlin Lei, Haipeng Ding, Zhewei Wei"
 status: 'pub'
 category: 'Trustworthy Graph Learning'
 ---
