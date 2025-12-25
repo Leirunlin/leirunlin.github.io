@@ -10,6 +10,7 @@ code: "https://github.com/Leirunlin/Text-level-Graph-Attack/"
 paperurl: "https://arxiv.org/abs/2405.16405"
 authorlist: "Runlin Lei, Yuwei Hu, Yuchen Ren, Zhewei Wei"
 status: 'pub'
+category: 'Trustworthy Graph Learning'
 ---
 **Abstract:**
 

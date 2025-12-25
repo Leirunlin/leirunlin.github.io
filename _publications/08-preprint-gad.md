@@ -6,10 +6,11 @@ excerpt: "Exploring the Potential of Large Language Models as Predictors in Dyna
 date: "2025-3-5"
 venue: "preprint"
 year: 2025
-code: 
+code:
 paperurl: "https://arxiv.org/abs/2503.03258"
 authorlist: "Runlin Lei, Jiarui Ji, Haipeng Ding, Lu Yi, Zhewei Wei, Yongchao Liu, Chuntao Hong"
 status: 'preprint'
+category: 'Graph & LLMs'
 ---
 **Abstract:**
 

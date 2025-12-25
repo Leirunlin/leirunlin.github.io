@@ -6,10 +6,11 @@ excerpt: "Future Link Prediction Without Memory or Aggregation"
 date: "2025-5-26"
 venue: "NeurIPS"
 year: 2025
-code: 
+code:
 paperurl: "https://arxiv.org/abs/2505.19408"
 authorlist: "Lu Yi, Runlin Lei, Fengran Mo, Yanping Zheng, Zhewei Wei, Yuhang Ye"
 status: 'pub'
+category: 'General Graph Learning'
 ---
 **Abstract:**
 

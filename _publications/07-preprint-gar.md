@@ -6,10 +6,11 @@ excerpt: "Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents"
 date: "2024-10-07"
 venue: ""
 year: 2024
-code: 
+code:
 paperurl: "https://arxiv.org/abs/2410.05130"
 authorlist: "Yuwei Hu, Runlin Lei, Xinyi Huang, Zhewei Wei, Yongchao Liu"
 status: 'preprint'
+category: 'Graph & LLMs'
 ---
 **Abstract:**
 

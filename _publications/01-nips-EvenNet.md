@@ -10,6 +10,7 @@ code: "https://github.com/Leirunlin/EvenNet"
 paperurl: https://arxiv.org/abs/2205.13892
 authorlist: "Runlin Lei, Zhen Wang, Yaliang Li, Bolin Ding, Zhewei Wei"
 status: 'pub'
+category: 'Trustworthy Graph Learning'
 ---
 **Abstract:**
 

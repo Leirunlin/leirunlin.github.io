@@ -37,9 +37,39 @@ redirect_from:
 
 # <span class="section-title" style="color: #34495E;">Publications</span>
 
+## <span style="color: #2980B9;">Graph & LLMs</span>
 <ul class="publications-list">
   {% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.category == 'Graph & LLMs' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+## <span style="color: #2980B9;">Trustworthy Graph Learning</span>
+<ul class="publications-list">
+  {% for post in site.publications reversed %}
+    {% if post.category == 'Trustworthy Graph Learning' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+## <span style="color: #2980B9;">General Graph Learning</span>
+<ul class="publications-list">
+  {% for post in site.publications reversed %}
+    {% if post.category == 'General Graph Learning' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+## <span style="color: #2980B9;">Others</span>
+<ul class="publications-list">
+  {% for post in site.publications reversed %}
+    {% if post.category == 'Others' %}
+      {% include archive-single-cv.html %}
+    {% endif %}
   {% endfor %}
 </ul>
 

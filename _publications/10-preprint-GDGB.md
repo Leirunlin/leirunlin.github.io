@@ -10,6 +10,7 @@ code: "https://gdgb-algo.github.io/"
 paperurl: "https://arxiv.org/abs/2505.19408"
 authorlist: "Jie Peng, Jiarui Ji, Runlin Lei, Zhewei Wei, Yongchao Liu, Chuntao Hong"
 status: 'preprint'
+category: 'Graph & LLMs'
 ---
 **Abstract:**
 

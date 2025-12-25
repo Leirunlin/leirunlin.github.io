@@ -10,6 +10,7 @@ code: https://github.com/ChenJY-Count/PolyGCL
 paperurl: https://openreview.net/pdf?id=y21ZO6M86t
 authorlist: "Jingyu Chen, Runlin Lei, Zhewei Wei"
 status: 'pub'
+category: 'General Graph Learning'
 ---
 **Abstract:**
 

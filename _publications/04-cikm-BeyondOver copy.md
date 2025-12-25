@@ -6,10 +6,11 @@ excerpt: "Beyond Over-smoothing: Uncovering the Trainability Challenges in Deep 
 date: "2024-10-21"
 venue: "CIKM"
 year: 2024
-code: 
+code:
 paperurl: https://arxiv.org/pdf/2408.03669
 authorlist: "Jie Peng, Runlin Lei, Zhewei Wei"
 status: 'pub'
+category: 'General Graph Learning'
 ---
 **Abstract:**
 

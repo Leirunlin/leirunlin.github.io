@@ -10,6 +10,7 @@ code: "https://github.com/Ji-Cather/GraphAgent"
 paperurl: "https://arxiv.org/abs/2410.09824"
 authorlist: "Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding"
 status: 'pub'
+category: 'Graph & LLMs'
 ---
 **Abstract:**
 The structural properties of naturally arising social graphs are extensively studied to understand their evolution. Prior approaches for modeling network dynamics typically rely on rule-based models, which lack realism and generalizability, or deep learning-based models, which require large-scale training datasets. Social graphs, as abstract graph representations
