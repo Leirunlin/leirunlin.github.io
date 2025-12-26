@@ -22,7 +22,7 @@ redirect_from:
 <div class="section-content about-me" style="border-left-color: #34495E;">
   <p>
     👋 I'm Runlin Lei (雷润林), a fourth-year Ph.D. student at Renmin University of China. I'm a member of the ALGO Lab, advised by <a href="https://weizhewei.com/" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.
-    My research interests primarily focus on 大模型 & graph, trustworthy graph learning.
+    My research interests primarily focus on LLM & Graph, Trustworthy Graph Learning.
   </p>
   
   <p>
