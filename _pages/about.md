@@ -35,18 +35,15 @@ redirect_from:
   </p>
 </div>
 
-# <span class="section-title" style="color: #34495E;">Industry Experience</span>
+# <span class="section-title" style="color: #34495E;">News</span>
 
-<div class="section-content" style="border-left-color: #34495E;">
-  <ul style="color: #2C3E50;">
-    <li>
-      <strong style="color: #16A085;">2026.2 -- Present:</strong> <strong>Tongyi Lab, Alibaba</strong> — Intern, <a href="https://github.com/agentscope-ai/CoPaw" class="link" style="color: #2980B9;">CoPaw</a>
-    </li>
-    <li>
-      <strong style="color: #16A085;">2024.10 -- 2026.1:</strong> <strong>Ant Group</strong> — Research Intern, LLM for Graph
-      <br>Published work on robust LLMs on graphs (ICLR 2026) and LLM-based dynamic graph prediction.
-    </li>
-  </ul>
+<div class="section-content" style="border-left-color: #F39C12;">
+  <p class="highlight" style="color: #E74C3C;">
+    🚀 I am expected to graduate from Renmin University of China in 2027/6 and actively seeking job opportunities. 
+  </p>
+  <p>
+    🤝 If you are interested in potential collaborations or have relevant opportunities, please feel free to <a href="mailto:runlin_lei@ruc.edu.cn" class="link bold" style="color: #2980B9;">contact me</a>.
+  </p>
 </div>
 
 # <span class="section-title" style="color: #34495E;">Publications</span>
@@ -86,6 +83,25 @@ redirect_from:
     {% endif %}
   {% endfor %}
 </ul>
+
+# <span class="section-title" style="color: #34495E;">Experience</span>
+
+<div class="section-content" style="border-left-color: #34495E;">
+  <ul style="color: #2C3E50; list-style: none; padding-left: 0;">
+    <li style="margin-bottom: 8px;">
+      <strong style="color: #16A085;">2026.2 -- Present</strong> | <strong>Tongyi Lab, Alibaba</strong> — Intern
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/agentscope-ai/CoPaw" class="link" style="color: #2980B9;">CoPaw</a>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: #16A085;">2025.10 -- 2026.2</strong> | <strong>National University of Singapore</strong> — Visiting Student
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;Advised by <a href="https://www.comp.nus.edu.sg/~xiaoxk/" class="link" style="color: #2980B9;">Prof. Xiaokui Xiao</a>
+    </li>
+    <li style="margin-bottom: 8px;">
+      <strong style="color: #16A085;">2024.10 -- 2026.1</strong> | <strong>Ant Group</strong> — Research Intern
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;LLM for Graph
+    </li>
+  </ul>
+</div>
 
 # <span class="section-title" style="color: #34495E;">Talks</span>
 
@@ -129,6 +145,6 @@ redirect_from:
 
 # <span class="section-title" style="color: #34495E;">Visitors</span>
 
-<div style="text-align: center;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ri1s0wMHMnloafsLp0Vwxf0MmW6yRaWisoXVyIGbe0U"></script>
+<div style="text-align: center; width: 200px; margin: 0 auto;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ri1s0wMHMnloafsLp0Vwxf0MmW6yRaWisoXVyIGbe0U&w=200&h=200"></script>
 </div>
