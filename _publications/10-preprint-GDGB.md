@@ -3,13 +3,13 @@ title: "GDGB: A Benchmark for Generative Dynamic Text-Attributed Graph Learning"
 collection: publications
 permalink: /publications/GDGB
 excerpt: "GDGB: A Benchmark for Generative Dynamic Text-Attributed Graph Learning"
-date: "2025-5-26"
-venue: "preprint"
-year: 2025
+date: "2026-01-01"
+venue: "ICLR"
+year: 2026
 code: "https://gdgb-algo.github.io/"
 paperurl: "https://arxiv.org/abs/2505.19408"
 authorlist: "Jie Peng, Jiarui Ji, Runlin Lei, Zhewei Wei, Yongchao Liu, Chuntao Hong"
-status: 'preprint'
+status: 'pub'
 category: 'Graph & LLMs'
 ---
 **Abstract:**

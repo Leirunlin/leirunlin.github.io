@@ -21,18 +21,32 @@ redirect_from:
 
 <div class="section-content about-me" style="border-left-color: #34495E;">
   <p>
-    👋 I'm Runlin Lei (雷润林), a fourth-year Ph.D. student at Renmin University of China. I'm a member of the ALGO Lab, advised by <a href="https://weizhewei.com/" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.
-    My research interests primarily focus on LLM & Graph, Trustworthy Graph Learning.
+    👋 I'm Runlin Lei (雷润林), a Ph.D. candidate at Renmin University of China (graduating June 2027), a member of the ALGO Lab, advised by <a href="https://weizhewei.com/" class="link" style="color: #2980B9;">Prof. Zhewei Wei</a>.
+    My research interests primarily focus on Multi-Agent Systems, LLM Applications, and Graph Machine Learning. <strong>I am on the job market!</strong>
   </p>
   
   <p>
-    🎓 Before embarking on my Ph.D. journey, I earned my Bachelor's degree from Shanghai University of Finance and Economics, where I was advised by Prof. Hongsong Yuan and Prof. Hua Liu.
+    🎓 I earned my Bachelor's degree from Shanghai University of Finance and Economics, where I was advised by Prof. Hongsong Yuan and Prof. Hua Liu.
   </p>
   
   <p>
     📧 Feel free to reach out to me via email: 
     <a href="mailto:runlin_lei@ruc.edu.cn" class="link" style="color: #2980B9;">runlin_lei@ruc.edu.cn</a>.
   </p>
+</div>
+
+# <span class="section-title" style="color: #34495E;">Industry Experience</span>
+
+<div class="section-content" style="border-left-color: #34495E;">
+  <ul style="color: #2C3E50;">
+    <li>
+      <strong style="color: #16A085;">2026.2 -- Present:</strong> <strong>Tongyi Lab, Alibaba</strong> — Intern, <a href="https://github.com/agentscope-ai/CoPaw" class="link" style="color: #2980B9;">CoPaw</a>
+    </li>
+    <li>
+      <strong style="color: #16A085;">2024.10 -- 2026.1:</strong> <strong>Ant Group</strong> — Research Intern, LLM for Graph
+      <br>Published work on robust LLMs on graphs (ICLR 2026) and LLM-based dynamic graph prediction.
+    </li>
+  </ul>
 </div>
 
 # <span class="section-title" style="color: #34495E;">Publications</span>
@@ -92,7 +106,8 @@ redirect_from:
 
 <div class="section-content honors-scholarships" style="border-left-color: #34495E;">
   <ul class="honors-list" style="color: #2C3E50;">
-    <li><strong style="color: #16A085;">2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
+    <li><strong style="color: #16A085;">2025:</strong> KDD 2025 Outstanding Reviewer &amp; Session Chair</li>
+    <li><strong style="color: #16A085;">2025, 2024, 2023:</strong> Academic Excellence Scholarship, Academic Scholarship</li>
     <li><strong style="color: #16A085;">2022:</strong> <span class="highlight" style="color: #16A085;">Shanghai Excellent Graduate</span>, School Excellent Graduate</li>
     <li><strong style="color: #16A085;">2021:</strong> China Merchants Bank Scholarship, American Undergraduate Mathematical Modeling Competition M Award, National Mathematical Modeling Competition National Second Prize</li>
     <li><strong style="color: #16A085;">2020:</strong> People's Scholarship First Prize</li>
@@ -105,8 +120,15 @@ redirect_from:
 <div class="section-content services" style="border-left-color: #34495E;">
   <p style="color: #2C3E50;">I serve(d) as a program committee member / reviewer for:</p>
   <ul class="services-list" style="color: #2C3E50;">
-    <li><strong style="color: #16A085;">2025:</strong> ICLR, AAAI, TPAMI</li>
+    <li><strong style="color: #16A085;">2026:</strong> ICLR, KDD, ICML</li>
+    <li><strong style="color: #16A085;">2025:</strong> ICLR, AAAI, KDD, TPAMI</li>
     <li><strong style="color: #16A085;">2024:</strong> NeurIPS, ICML, ICLR, KDD, ACML</li>
     <li><strong style="color: #16A085;">2023:</strong> NeurIPS, ICML</li>
   </ul>
+</div>
+
+# <span class="section-title" style="color: #34495E;">Visitors</span>
+
+<div style="text-align: center;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ri1s0wMHMnloafsLp0Vwxf0MmW6yRaWisoXVyIGbe0U"></script>
 </div>

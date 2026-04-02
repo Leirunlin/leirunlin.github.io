@@ -3,13 +3,13 @@ title: "Robustness in Text-Attributed Graph Learning: Insights, Trade-offs, and 
 collection: publications
 permalink: /publications/robustness-tag
 excerpt: "Robustness in Text-Attributed Graph Learning: Insights, Trade-offs, and New Defenses"
-date: "2024-10-22"
-venue: "Under Review"
-year: 2025
+date: "2026-01-01"
+venue: "ICLR"
+year: 2026
 code:
 paperurl: "https://arxiv.org/pdf/2510.17185"
-authorlist: "Runlin Lei, Lu Yi, Mingguo He, Pengyu Qiu, Zhewei Wei, Yongchao Liu, Chuntao Hong"
-status: 'preprint'
+authorlist: "Runlin Lei, Lu Yi, Mingguo He, Zhewei Wei, Yongchao Liu, Chuntao Hong"
+status: 'pub'
 category: 'Graph & LLMs'
 ---
 **Abstract:**
