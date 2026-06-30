@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article>
+  <header>
+    {% if page.title %}
+      <h1>{{ page.title }}</h1>
+    {% endif %}
+    
+    {% if page.venue and page.year %}
+      <p>{% assign authors = page.authorlist | split: ", " %}
+        {% for a in authors %}
+          {% if a==authors.last %}
+              {% if a=='Runlin Lei' %}
+                <b>Runlin Lei</b>.
+              {% else %}
+                {{a}}.
+              {% endif %}
+          {% else %}
+              {% if a=='Runlin Lei' %}
+                <b>Runlin Lei</b>,
+              {% elsif a=='Runlin Lei*' %}
+                <b>Runlin Lei*</b>,
+              {% else %}
+                {{a}},
+              {% endif %}
+          {% endif %}
+        {% endfor %} <br>
+        {% if page.status == 'pub' %}
+          In <b>{{ page.venue }}</b> {{ page.year }}.
+        {% elsif page.status == 'acc' %}
+          To appear in <b><i>{{ page.venue }}</i></b> {{ page.year }}.
+        {% else %}
+          <i>Work in progress.</i>
+        {% endif %}
+        {% if page.paperurl %}
+          <a href="{{ page.paperurl }}">[Download paper]</a>
+        {% endif %}
+        {% if page.code %}
+          <a href="{{ page.code }}">[code]</a>
+        {% endif %}
+        {% if page.video %}
+          <a href="{{ page.video }}">[video]</a>
+        {% endif %}
+      </p>
+    {% endif %}
+  </header>
+
+  <section>
+    {{ content }}
+  </section>
+</article>

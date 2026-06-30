@@ -1,0 +1,64 @@
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<li class="publication-item">
+  <article class="publication-entry" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h3 class="publication-title">
+      {% if post.link %}
+        <a href="{{ post.link }}" class="publication-link">{{ title }}</a>
+      {% else %}
+        <a href="{{ post.url | relative_url }}" class="publication-link">{{ title }}</a>
+      {% endif %}
+    </h3>
+    
+    <div class="publication-authors">
+      {% assign authors = post.authorlist | split: ", " %}
+      {% for a in authors %}
+        {% if a==authors.last %}
+            {% if a=='Runlin Lei' %}
+              <strong class="author-highlight">Runlin Lei</strong>.
+            {% else %}
+              <span class="author-name">{{a}}</span>.
+            {% endif %}
+        {% else %}
+            {% if a=='Runlin Lei' %}
+              <strong class="author-highlight">Runlin Lei</strong>,
+            {% elsif a=='Runlin Lei*' %}
+              <strong class="author-highlight">Runlin Lei*</strong>,
+            {% else %}
+              <span class="author-name">{{a}}</span>,
+            {% endif %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    
+    <div class="publication-venue">
+      {% if post.status == 'pub' %}
+        In <strong><em>{{post.venue}}</em></strong> {{post.year}}.
+      {% elsif post.status == 'acc' %}
+        To appear in <strong><em>{{post.venue}}</em></strong> {{post.year}}.
+      {% elsif post.status == 'sub' %}
+        <em>Under review.</em>
+      {% else %}
+        <em>Work in progress.</em>
+      {% endif %}
+    </div>
+    
+    <div class="publication-links">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" class="publication-link-item" target="_blank">[Download paper]</a>
+      {% endif %}
+      {% if post.code %}
+        <a href="{{ post.code }}" class="publication-link-item" target="_blank">[code]</a>
+      {% endif %}
+      {% if post.video %}
+        <a href="{{ post.video }}" class="publication-link-item" target="_blank">[video]</a>
+      {% endif %}
+    </div>
+    
+  </article>
+</li>

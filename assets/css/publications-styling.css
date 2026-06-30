@@ -1,0 +1,86 @@
+/* Publications List Styling */
+.publications-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.publication-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-entry {
+  display: block;
+}
+
+.publication-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.publication-link {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.publication-link:hover {
+  color: #3498db;
+  text-decoration: underline;
+}
+
+.publication-authors {
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.3;
+}
+
+.author-highlight {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.author-name {
+  color: #666;
+}
+
+.publication-venue {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.publication-venue strong {
+  color: #2c3e50;
+}
+
+.publication-links {
+  font-size: 0.85rem;
+}
+
+.publication-link-item {
+  color: #3498db;
+  text-decoration: none;
+  margin-right: 0.75rem;
+}
+
+.publication-link-item:hover {
+  text-decoration: underline;
+}
+
+/* Archive page title styling */
+.archive h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
