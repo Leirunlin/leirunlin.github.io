@@ -142,9 +142,3 @@ redirect_from:
     <li><strong style="color: #2980B9;">2023:</strong> NeurIPS, ICML</li>
   </ul>
 </div>
-
-# <span class="section-title" style="color: #34495E;">Visitors</span>
-
-<div style="text-align: center; width: 200px; margin: 0 auto;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=ri1s0wMHMnloafsLp0Vwxf0MmW6yRaWisoXVyIGbe0U&w=200&h=200"></script>
-</div>
