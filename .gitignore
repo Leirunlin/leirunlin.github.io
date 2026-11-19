@@ -5,3 +5,6 @@ push.sh
 /CV
 .claude/
 CLAUDE.md
+
+dist/
+__pycache__/

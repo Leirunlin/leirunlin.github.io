@@ -1,72 +1,39 @@
+# Runlin Lei · Research
 
-<h1 align="center">
-AcadHomepage
-</h1>
+个人研究主页。使用 Python 3 标准库从本地数据生成静态 HTML，英文使用随站提供的 Source Serif 4（新闻、标题和长文）与 Geist（导航、日期和控件），中文使用系统字体，照片随站点提供。
 
-<div align="center">
+## 本地构建与预览
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
+在仓库根目录运行
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+```sh
+python3 scripts/build.py
+python3 -m http.server 8000 --bind 127.0.0.1 --directory dist
+```
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+打开 [本地首页](http://127.0.0.1:8000/) 或 [论文索引](http://127.0.0.1:8000/publications/)。修改内容后再次运行构建命令并刷新浏览器。用 Ctrl-C 关闭预览。
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+## 内容与设计
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+首页的四篇代表作选取一作或论文注明的共一作品，按近期优先排列。AdaCoM 原文首页说明 Lu Yi 与 Runlin Lei 为共同第一作者。每篇配图来自对应论文的 Figure 1，保存在 `images/teasers/`。每篇论文在首页代表作、完整书目和详情页展示对应的研究关键词。简介和学术活动沿用原主页公开内容，经历列出机构、时间和身份。完整书目按发表年份排序。所有论文在关闭 JavaScript 时仍可阅读。
 
-## Quick Start
+- 在 `data/publications.json` 中维护题目、作者顺序、会议或期刊、发表年份、主题和链接。预印本使用 arXiv 年份，正式发表后改为出版物年份和正式链接。保留 slug 可维持原有论文网址。在 `keywords` 中列出与论文直接相关的研究主题，例如 GEO、LLM、Recommendation。
+- 在 `data/abstracts.json` 中按 slug 维护摘要。首页代表作在 `scripts/build.py` 中的 `FEATURED`。
+- 在 `site/home.html` 中更新个人简介、经历与学术活动。共享布局在 `site/layout.html`，排版在 `site/style.css`。
+- 构建产物位于 `dist/`。GitHub Pages 使用本仓库的 Pages workflow 时，在 Settings → Pages 选择 **GitHub Actions**。之后推送至 master 即可触发同一构建。
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+## LLM Agent 研究者的个人站参考
 
-## Debug Locally
+首屏的第一人称介绍、中英文姓名和个人照片参考了 [John Yang](https://john-b-yang.github.io/)、[Xingyao Wang](https://xwang.dev/) 和 [Jing Yu Koh](https://jykoh.com/)。代表作的组织参考了 [Zora Wang](https://zorazrw.github.io/)、[Xuhui Zhou](https://xuhuiz.com/) 和 [Shunyu Yao](https://ysymyth.github.io/) 如何把研究兴趣连到具体工作。也对照了 [Ofir Press](https://ofir.io/about/)、[Noah Shinn](https://noahshinn.com/)、[Shuyan Zhou](https://www.shuyanzhou.com/)、[Tao Yu](https://taoyds.github.io/) 和 [Carlos E. Jimenez](https://closji.com/) 的个人站。
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+首页的研究问题聚焦 agent harness 如何帮助智能体跨会话完成长程任务、从经验中改进策略，以及让人更容易理解和引导智能体的工作。Talks 每场单列日期与链接。
 
-# Acknowledges
+## 产品页设计参考
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+参考 [Cursor](https://cursor.com/) 在首屏放置交互演示、[Linear AI](https://linear.app/ai) 按具体场景拆分功能，以及 [Thinking Machines Lab](https://thinkingmachines.ai/) 用简短介绍进入研究主题的方式。
+
+图游戏有三种玩法。Least energy 需要收集两颗晶体并以最低能量抵达终点；One stroke 要按相连的边走完全图，每条边只能经过一次。Beacons 要用最少的信标点亮所有边，点击节点可以放置或取回信标。**Replay moves** 回放每一步操作，**Retry** 重试同一张图，**New graph** 生成节点数、位置与连线不同的新一局。在本页切换玩法会保留各自的进度。
+
+代表作图文并排的编排参考 [Jon Barron](https://jonbarron.info/)。News 采用日期加单条事件的倒序列表，参考 [Jing Yu Koh](https://jykoh.com/)。
+
+配色与字号参考 [Anthropic](https://www.anthropic.com/)、[Cursor](https://cursor.com/)、[Mistral](https://mistral.ai/) 的中性色底与强调色，以及 [Jing Yu Koh](https://jykoh.com/) 的衬线正文和独立日期列。本站参考 [UniPat](https://unipat.ai/) 的流动图案，采用靛蓝动态首屏、白色棋盘和浅银蓝阅读区。

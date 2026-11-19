@@ -1,0 +1,258 @@
+[
+  {
+    "slug": "IntentGEO",
+    "title": "IntentGEO: Intent-aware Generative Engine Optimization for Recommendation",
+    "authors": "Runlin Lei, Shiqi Zhang, Xiaokui Xiao, Zhewei Wei",
+    "venue": "arXiv preprint",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2611.04225",
+    "keywords": [
+      "GEO",
+      "LLM",
+      "Recommendation",
+      "User intent"
+    ]
+  },
+  {
+    "slug": "vision-graph",
+    "title": "Visual Graph Scaffolds for Structural Reasoning in Large Language Models",
+    "authors": "Runlin Lei, Xiaokui Xiao, Zhewei Wei",
+    "venue": "arXiv preprint",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2606.02673",
+    "keywords": [
+      "LLM",
+      "Visual reasoning",
+      "Graph structure"
+    ]
+  },
+  {
+    "slug": "AdaCoM",
+    "title": "Learning Agent-Compatible Context Management for Long-Horizon Tasks",
+    "authors": "Lu Yi, Runlin Lei, Liuyi Yao, Yuexiang Xie, Yuyang Li, Wenhao Zhang, Zhewei Wei, Yaliang Li, Jian-Yun Nie",
+    "venue": "arXiv preprint",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2605.30785",
+    "code": "https://github.com/luyi256/AdaCoM",
+    "co_first": [
+      "Lu Yi",
+      "Runlin Lei"
+    ],
+    "keywords": [
+      "LLM agents",
+      "Context management",
+      "Reinforcement learning"
+    ]
+  },
+  {
+    "slug": "robustness-tag",
+    "title": "Robustness in Text-Attributed Graph Learning: Insights, Trade-offs, and New Defenses",
+    "authors": "Runlin Lei, Lu Yi, Mingguo He, Pengyu Qiu, Zhewei Wei, Yongchao Liu, Chuntao Hong",
+    "venue": "ICLR",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=CEJl0gN2gj",
+    "code": "https://github.com/Leirunlin/TGRB",
+    "preprint": "https://arxiv.org/abs/2510.17185",
+    "keywords": [
+      "Text-attributed graphs",
+      "LLM",
+      "Robustness"
+    ]
+  },
+  {
+    "slug": "hetattack",
+    "title": "Restricted Black-Box Attack on Graphs Beyond Homophily",
+    "authors": "Runlin Lei, Haipeng Ding, Zhewei Wei",
+    "venue": "IEEE TKDE",
+    "year": 2026,
+    "url": "https://doi.org/10.1109/TKDE.2025.3632233",
+    "keywords": [
+      "Graph neural networks",
+      "Black-box attacks",
+      "Heterophily"
+    ]
+  },
+  {
+    "slug": "social-science",
+    "title": "Leveraging LLM-Based Agents for Social Science Research: Insights from Citation Network Simulations",
+    "authors": "Jiarui Ji, Runlin Lei, Xuchen Pan, Zhewei Wei, Hao Sun, Yankai Lin, Xu Chen, Yongzheng Yang, Yaliang Li, Bolin Ding, Ji-Rong Wen",
+    "venue": "Humanities and Social Sciences Communications",
+    "year": 2026,
+    "url": "https://doi.org/10.1057/s41599-025-06193-w",
+    "code": "https://github.com/Ji-Cather/CiteAgent",
+    "preprint": "https://arxiv.org/abs/2511.03758",
+    "keywords": [
+      "Multi-agent simulation",
+      "Citation networks",
+      "Computational social science"
+    ]
+  },
+  {
+    "slug": "GDGB",
+    "title": "GDGB: A Benchmark for Generative Dynamic Text-Attributed Graph Learning",
+    "authors": "Jie Peng, Jiarui Ji, Runlin Lei, Zhewei Wei, Yongchao Liu, Chuntao Hong",
+    "venue": "ICLR",
+    "year": 2026,
+    "url": "https://openreview.net/forum?id=5UFUHUC5qP",
+    "project": "https://gdgb-algo.github.io/",
+    "preprint": "https://arxiv.org/abs/2507.03267",
+    "keywords": [
+      "Dynamic graphs",
+      "Graph generation",
+      "Benchmark"
+    ]
+  },
+  {
+    "slug": "GAR",
+    "title": "Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents",
+    "authors": "Yuwei Hu, Runlin Lei, Xinyi Huang, Zhewei Wei, Yongchao Liu",
+    "venue": "AAAI Workshop (WMAC)",
+    "year": 2026,
+    "url": "https://arxiv.org/abs/2410.05130",
+    "keywords": [
+      "LLM",
+      "Multi-agent systems",
+      "Graph reasoning"
+    ]
+  },
+  {
+    "slug": "GraphGen-survey",
+    "title": "A Systematic Survey on Generative Models for Graph Generation",
+    "authors": "Jiarui Ji, Wenda Wang, Runlin Lei, Jialin Bi, Lei Wang, Rui Wang, Qiang Wang, Bin Tong, Xu Chen, Zhewei Wei",
+    "venue": "Preprints.org preprint",
+    "year": 2025,
+    "url": "https://doi.org/10.20944/preprints202512.0114.v1",
+    "keywords": [
+      "Graph generation",
+      "Generative models",
+      "Survey"
+    ]
+  },
+  {
+    "slug": "NDV-survey",
+    "title": "A Survey of Estimating Number of Distinct Values",
+    "authors": "Jiajun Li, Runlin Lei, Zhewei Wei",
+    "venue": "Frontiers of Computer Science",
+    "year": 2025,
+    "url": "https://doi.org/10.1007/s11704-024-40952-3",
+    "keywords": [
+      "Databases",
+      "Distinct-value estimation",
+      "Survey"
+    ]
+  },
+  {
+    "slug": "Craft",
+    "title": "Future Link Prediction Without Memory or Aggregation",
+    "authors": "Lu Yi, Runlin Lei, Fengran Mo, Yanping Zheng, Zhewei Wei, Yuhang Ye",
+    "venue": "NeurIPS",
+    "year": 2025,
+    "url": "https://openreview.net/forum?id=kHDUCUqPEc",
+    "code": "https://github.com/luyi256/CRAFT",
+    "preprint": "https://arxiv.org/abs/2505.19408",
+    "keywords": [
+      "Temporal graphs",
+      "Link prediction",
+      "Cross-attention"
+    ]
+  },
+  {
+    "slug": "GAD",
+    "title": "Exploring the Potential of Large Language Models as Predictors in Dynamic Text-Attributed Graphs",
+    "authors": "Runlin Lei, Jiarui Ji, Haipeng Ding, Lu Yi, Zhewei Wei, Yongchao Liu, Chuntao Hong",
+    "venue": "arXiv preprint",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2503.03258",
+    "keywords": [
+      "LLM",
+      "Dynamic graphs",
+      "Prediction"
+    ]
+  },
+  {
+    "slug": "GAG",
+    "title": "LLM-Based Multi-Agent Systems are Scalable Graph Generative Models",
+    "authors": "Jiarui Ji, Runlin Lei, Jialing Bi, Zhewei Wei, Xu Chen, Yankai Lin, Xuchen Pan, Yaliang Li, Bolin Ding",
+    "venue": "Findings of ACL",
+    "year": 2025,
+    "url": "https://aclanthology.org/2025.findings-acl.78/",
+    "code": "https://github.com/Ji-Cather/GraphAgent",
+    "preprint": "https://arxiv.org/abs/2410.09824",
+    "keywords": [
+      "LLM",
+      "Multi-agent simulation",
+      "Graph generation"
+    ]
+  },
+  {
+    "slug": "TextGIA",
+    "title": "Intruding with Words: Towards Understanding Graph Injection Attacks at the Text Level",
+    "authors": "Runlin Lei, Yuwei Hu, Yuchen Ren, Zhewei Wei",
+    "venue": "NeurIPS",
+    "year": 2024,
+    "url": "https://openreview.net/forum?id=oTzydUKWpq",
+    "code": "https://github.com/Leirunlin/Text-level-Graph-Attack/",
+    "preprint": "https://arxiv.org/abs/2405.16405",
+    "keywords": [
+      "Graph injection attacks",
+      "Text-attributed graphs",
+      "Robustness"
+    ]
+  },
+  {
+    "slug": "BeyondOver",
+    "title": "Beyond Over-smoothing: Uncovering the Trainability Challenges in Deep Graph Neural Networks",
+    "authors": "Jie Peng, Runlin Lei, Zhewei Wei",
+    "venue": "CIKM",
+    "year": 2024,
+    "url": "https://doi.org/10.1145/3627673.3679776",
+    "preprint": "https://arxiv.org/abs/2408.03669",
+    "keywords": [
+      "Graph neural networks",
+      "Over-smoothing",
+      "Trainability"
+    ]
+  },
+  {
+    "slug": "PolyNDV",
+    "title": "Learning-based Property Estimation with Polynomials",
+    "authors": "Jiajun Li, Runlin Lei, Sibo Wang, Zhewei Wei, Bolin Ding",
+    "venue": "SIGMOD",
+    "year": 2024,
+    "url": "https://dl.acm.org/doi/10.1145/3654994",
+    "code": "https://github.com/llijiajun/Learning-based_Property_Estimation_with_Polynomials",
+    "keywords": [
+      "Databases",
+      "Property estimation",
+      "Polynomials"
+    ]
+  },
+  {
+    "slug": "PolyGCL",
+    "title": "PolyGCL: Graph Contrastive Learning via Learnable Spectral Polynomial Filters",
+    "authors": "Jingyu Chen, Runlin Lei, Zhewei Wei",
+    "venue": "ICLR",
+    "year": 2024,
+    "url": "https://openreview.net/forum?id=y21ZO6M86t",
+    "code": "https://github.com/ChenJY-Count/PolyGCL",
+    "keywords": [
+      "Contrastive learning",
+      "Spectral filters",
+      "Graph representation learning"
+    ]
+  },
+  {
+    "slug": "EvenNet",
+    "title": "EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks",
+    "authors": "Runlin Lei, Zhen Wang, Yaliang Li, Bolin Ding, Zhewei Wei",
+    "venue": "NeurIPS",
+    "year": 2022,
+    "url": "https://arxiv.org/abs/2205.13892",
+    "code": "https://github.com/Leirunlin/EvenNet",
+    "keywords": [
+      "Graph neural networks",
+      "Spectral filters",
+      "Robustness"
+    ]
+  }
+]
