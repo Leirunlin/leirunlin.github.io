@@ -65,7 +65,9 @@ def main():
     if len(by_slug) != len(papers) or abstracts.keys() - by_slug.keys():
         raise ValueError("Publication slugs must be unique and preserve the archive’s original URLs")
 
-    for source in ["site/style.css", "site/motion.js", "site/field.js", "site/geist.ttf", "site/Geist-OFL.txt", "site/source-serif-4.woff2", "site/SourceSerif-OFL.txt", "images/profile.jpg", "images/favicon.ico"]:
+    for source in ["site/style.css", "site/motion.js", "site/field.js", "site/geist.ttf", "site/Geist-OFL.txt", "site/source-serif-4.woff2", "site/SourceSerif-OFL.txt", "images/profile.jpg", "images/favicon.ico",
+                   "images/projects/qwenpaw.png", "images/projects/jittor-geometric.png",
+                   "images/organizations/alibaba.png", "images/organizations/ant-group.png", "images/organizations/nus.png"]:
         dest = OUT / source
         dest.parent.mkdir(parents=True, exist_ok=True)
         copy2(ROOT / source, dest)
